@@ -36,16 +36,41 @@
         <div class="titlePopUp">
             <h1>Login</h1>
         </div>
-        <div class="bodyPopUp">
-            <label for="email">Email</label>
-            <input type="email" name="email" id="loginEmail">
-            <label for="password"></label>
-            <input type="password" name="password" id="pwdEmail">
+        <br>
+        <div class="bodyPopUp row">
+            <label for="lemail">Email</label>
+            <input type="email" name="lemail" id="lemail" placeholder="example@email.com">
+            <label for="lpwd">Password</label>
+            <input type="password" name="lpwd" id="lpwd" placeholder="enter your password here ...">
         </div>
+        <br>
         <div class="footPopUp">
-            <button></button>
+            <button>login</button>
         </div>
     </div>
+
+    <div id="signupPopUp" class="popUpDiv">
+      <div class="titlePopUp">
+          <h1>Signup</h1>
+      </div>
+      <br>
+      <div class="bodyPopUp row">
+          <label for="semail">Email</label>
+          <input type="email" name="semail" id="semail" placeholder="example@email.com">
+          <label for="spwd">Password</label>
+          <input type="password" name="spwd" id="spwd" placeholder="set your password here ...">
+          <label for="sname">User Name</label>
+          <input type="text" name="sname" id="sname" placeholder="enter your name here ...">
+          <label for="sfname">First Name</label>
+          <input type="text" name="sfname" id="sfname" placeholder="your first name here ...">
+          <label for="slname">Second Name</label>
+          <input type="text" name="slname" id="slname" placeholder="your last name here ...">
+      </div>
+      <br>
+      <div class="footPopUp">
+          <button>signup</button>
+      </div>
+  </div>
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script><script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>

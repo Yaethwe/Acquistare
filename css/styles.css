@@ -1,0 +1,57 @@
+:root{
+    --bg-theme-color: black;
+    --input-bg-color: rgb(60, 60, 60);
+    --input-color: aqua;
+    --input-btn-hover-bg-color: rgb(88, 153, 58);
+    --input-btn-hover-color: rgb(192, 204, 255);
+    --form-bg-color: rgb(26, 26, 26);
+    --form-color: aqua;
+}
+
+.popUpDiv{
+    margin:5px;
+    padding: 25px;
+    background-color: var(--form-bg-color);
+    border-radius: 5px;
+    color: var(--form-color);
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    background-color: var(--input-bg-color);
+    color: var(--input-color);
+    padding: 5px;
+    border-radius: 5px;
+    border-color: rgb(0, 140, 255);
+}
+
+button{
+    background-color: var(--input-bg-color);
+    color: var(--input-color);
+    padding: 5px;
+    border-radius: 5px;
+    border-color: rgb(0, 140, 255);
+}
+
+button:hover{
+    background-color: var(--input-btn-hover-bg-color);
+    color: var(--input-btn-hover-color);
+    padding: 5px;
+    border-radius: 5px;
+    border-color: rgb(0, 140, 255);
+}
+
+body{
+    background-color: var(--bg-theme-color);
+}
+
+.row{
+    flex-direction: row;
+}
+
+/*
+.container {
+  flex-direction: row | row-reverse | column | column-reverse;
+}
+*/

@@ -1,5 +1,7 @@
 :root{
     --bg-theme-color: black;
+    --theme-color-primary: white;
+    --theme-color-secondary: rgb(164, 196, 255);
     --input-bg-color: rgb(60, 60, 60);
     --input-color: aqua;
     --input-btn-hover-bg-color: rgb(88, 153, 58);
@@ -34,20 +36,23 @@ button{
     border-color: rgb(0, 140, 255);
 }
 
-button:hover{
-    background-color: var(--input-btn-hover-bg-color);
-    color: var(--input-btn-hover-color);
-    padding: 5px;
-    border-radius: 5px;
-    border-color: rgb(0, 140, 255);
-}
+
 
 body{
     background-color: var(--bg-theme-color);
+    color: var(--theme-color-primary);
+}
+
+h1{
+    color: var(--theme-color-secondary);
 }
 
 .row{
     flex-direction: row;
+}
+
+.white{
+    color: white;
 }
 
 /*
